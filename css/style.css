@@ -1,0 +1,331 @@
+/* #background-loading {
+  background: #07131e;
+  z-index: 99999;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+.loading-text {
+  position: absolute;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  margin: -5px 0 0 -32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 120px;
+  height: 120px;
+  margin: -60px 0 0 -60px;
+  border: 4px solid transparent;
+  border-top-color: #ffa500;
+  border-bottom-color: #ffa500;
+  border-radius: 50%;
+  animation: loading 2s linear;
+  animation-iteration-count: infinite;
+}
+
+.loader::after,
+.loader::before {
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+}
+
+.loader::after {
+  left: 15px;
+  top: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 3px solid transparent;
+  border-top-color: #32cd32;
+  border-bottom-color: #32cd32;
+  animation: loading 1.5s linear;
+  animation-iteration-count: infinite;
+}
+
+.loader::before {
+  left: 6px;
+  top: 6px;
+  right: 6px;
+  bottom: 6px;
+  border: 3px solid transparent;
+  border-top-color: #03afdb;
+  border-bottom-color: #03afdb;
+  animation: loading 3s linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+} */
+/* Akhir Loader */
+body {
+  background-color: #fffaec !important;
+  cursor: default;
+}
+/* Awal KOP */
+#KOP .bg-kop {
+  background-color: #ffce45;
+}
+#KOP img {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+#KOP h6 {
+  font-family: neuton;
+  font-size: 18px;
+  line-height: 14px;
+}
+#KOP span {
+  font-family: neuton;
+  font-weight: bold;
+  font-size: 19px;
+}
+#KOP h4 {
+  font-family: neuton;
+  font-weight: bolder;
+  margin-top: -8px;
+}
+#KOP p {
+  font-family: neuton;
+  font-weight: bold;
+  margin-top: -10px;
+}
+#KOP h5 {
+  font-family: neuton;
+  font-weight: bold;
+  margin-top: -20px;
+}
+/* Akhir KOP */
+
+/* Awal Navbar */
+.navbar {
+  background-color: #ffce45;
+}
+.navbar a {
+  font-family: neuton;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(80, 80, 80);
+}
+.navbar a:hover {
+  font-family: neuton;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+/* Akhir Navbar */
+
+/* Awal Banner */
+#Banner .picture img {
+  width: 100%;
+  height: 650px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+#Banner .carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-left: 15%;
+  margin-bottom: -3rem;
+  list-style: none;
+}
+#Banner .carousel-indicators [data-bs-target] {
+  box-sizing: content-box;
+  flex: 0 1 auto;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  margin-right: 3px;
+  margin-left: 3px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #ffce45;
+  background-clip: padding-box;
+  border-radius: 100%;
+  border-color: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  opacity: 1;
+  transition: opacity 0.6s ease;
+}
+/* Akhir Banner */
+
+/* Awal Informasi */
+#Informasi .bg-Judul {
+  margin-top: 80px;
+}
+#Informasi .Judul h1,
+#Gambaran-Umum .Judul h5,
+#Kesehatan-Masyarakat .Judul h5 {
+  margin-top: 20px;
+  font-family: neuton;
+  font-weight: bold;
+  color: rgb(100, 100, 100);
+  text-shadow: 1px 0px 1px #f9f9f9;
+}
+#Informasi .budaya-kerja i {
+  font-size: 200px;
+  margin-top: 70px;
+  color: #ffce45;
+  text-shadow: 2px 2px 1px black;
+}
+#Informasi .budaya-kerja i:hover {
+  font-size: 200px;
+  margin-top: 70px;
+  color: #ffce45;
+  text-shadow: 2px 2px 1px black;
+  opacity: 0.4;
+}
+#Informasi .budaya-kerja h6 {
+  margin-top: 20px;
+  font-family: salsa;
+  font-weight: bolder;
+  font-size: 32px;
+  color: rgb(100, 100, 100);
+}
+/* Akhir Informasi */
+
+/* Awal Visi-Misi */
+#Visi-Misi .bg-visi-b,
+#Visi-Misi .bg-misi-b,
+#Visi-Misi .bg-motto-b {
+  background-color: white;
+  height: 300px;
+  box-shadow: 0px 0px 3px gray;
+  border-radius: 10px;
+}
+#Visi-Misi .bg-visi,
+#Visi-Misi .bg-misi {
+  background-color: #d7a86e;
+  border-radius: 10px 10px 0 0;
+  height: 50px;
+}
+#Visi-Misi .bg-visi h3,
+#Visi-Misi .bg-misi h3,
+#Visi-Misi .bg-motto h3 {
+  font-family: concert one;
+  font-size: 32px;
+  padding-top: 5px;
+  color: white;
+  text-align: center;
+}
+#Visi-Misi .bg-visi-b h6,
+#Visi-Misi .bg-motto-b h6 {
+  font-family: concert one;
+  font-size: 18px;
+  margin-top: 80px;
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+#Visi-Misi .bg-motto {
+  background-color: #d7a86e;
+  border-radius: 10px 10px 0 0;
+  height: 50px;
+}
+#Visi-Misi .bg-misi-b ol {
+  margin-top: 15px;
+  font-family: concert one;
+  font-size: 18px;
+  color: rgb(100, 100, 100);
+}
+/* Akhir Visi-Misi */
+
+/* Awal Gambaran Umum */
+#Gambaran-Umum .bg-gambaran-umum,
+#Maklumat-Pelayanan .bg-maklumat-pelayanan,
+#Struktur-Organisasi .bg-struktur-organisasi,
+#Kesehatan-Masyarakat .bg-Kesehatan-Masyarakat,
+#Sarana-Prasarana .bg-sarana-prasarana {
+  background-color: white;
+  margin: 50px 0;
+}
+#Gambaran-Umum .Judul h2,
+#Maklumat-Pelayanan .Judul h2,
+#Struktur-Organisasi .Judul h2,
+#Sarana-Prasarana .Judul h2 {
+  font-family: salsa;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 30px;
+}
+#Gambaran-Umum .gambar img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+#Gambaran-Umum .Geografi,
+#Gambaran-Umum .Demografi,
+#Kesehatan-Masyarakat .Demografi {
+  font-family: concert one;
+  text-align: justify;
+  color: #4f4f4f;
+}
+#Gambaran-Umum .Demografi table,
+th,
+td {
+  /* text-align: center; */
+  vertical-align: middle;
+}
+/* Akhir Gambaran Umum */
+
+/* Awal Maklumat Pelayanan */
+#Maklumat-Pelayanan .Isi-Maklumat p {
+  text-align: center;
+  font-family: concert one;
+  color: #4f4f4f;
+}
+/* Akhir Maklumat Pelayanan */
+
+/* Awal Footer */
+#Footer .bg-footer {
+  background-color: #ffeab0;
+}
+#Footer .isi-footer h4 {
+  margin-top: 20px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+#Footer .isi-footer h6 {
+  margin-top: 20px;
+  font-size: 16px;
+  text-align: center;
+}
+#Footer .sosmed img {
+  width: 30px;
+  margin: 0 5px;
+}
+#Footer .sosmed img:hover {
+  opacity: 0.3;
+}
+#Footer .copyright {
+  font-size: 16px;
+  font-family: salsa;
+  color: #4f4f4f;
+}
+/* Akhir Footer */
