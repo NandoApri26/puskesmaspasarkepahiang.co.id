@@ -162,6 +162,13 @@
   }
   /* Akhir Struktur Organisasi */
 
+  /* Awal Hubungi Kami */
+  #Hubungi-Kami .maps iframe {
+    width: 100%;
+    height: 350px;
+  }
+  /* Akhir Hubungi Kami */
+
   /* Awal Footer */
   #Footer .bg-footer {
     background-color: #ffeab0;

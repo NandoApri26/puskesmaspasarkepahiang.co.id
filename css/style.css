@@ -180,7 +180,10 @@ body {
 }
 #Informasi .Judul h1,
 #Gambaran-Umum .Judul h5,
-#Kesehatan-Masyarakat .Judul h5 {
+#Kesehatan-Masyarakat .Judul h5,
+#Jadwal-Pelayanan .jadwal-pelayanan h5,
+#Jadwal-Pelayanan .jadwal-persalinan h5,
+#Jadwal-Pelayanan .jadwal-ceklab h5 {
   margin-top: 20px;
   font-family: neuton;
   font-weight: bold;
@@ -259,14 +262,17 @@ body {
 #Maklumat-Pelayanan .bg-maklumat-pelayanan,
 #Struktur-Organisasi .bg-struktur-organisasi,
 #Kesehatan-Masyarakat .bg-Kesehatan-Masyarakat,
-#Sarana-Prasarana .bg-sarana-prasarana {
+#Sarana-Prasarana .bg-sarana-prasarana,
+#Jadwal-Pelayanan .bg-jadwal-pelayanan,
+#Hubungi-Kami .bg-hubungi-kami {
   background-color: white;
   margin: 50px 0;
 }
 #Gambaran-Umum .Judul h2,
 #Maklumat-Pelayanan .Judul h2,
 #Struktur-Organisasi .Judul h2,
-#Sarana-Prasarana .Judul h2 {
+#Sarana-Prasarana .Judul h2,
+#Jadwal-Pelayanan .Judul h2 {
   font-family: salsa;
   font-weight: bold;
   text-align: center;
@@ -280,7 +286,8 @@ body {
 }
 #Gambaran-Umum .Geografi,
 #Gambaran-Umum .Demografi,
-#Kesehatan-Masyarakat .Demografi {
+#Kesehatan-Masyarakat .Demografi,
+#Sarana-Prasarana .Demografi {
   font-family: concert one;
   text-align: justify;
   color: #4f4f4f;
@@ -300,6 +307,25 @@ td {
   color: #4f4f4f;
 }
 /* Akhir Maklumat Pelayanan */
+
+/* Awal Jadwal Pelayanan */
+#Jadwal-Pelayanan .jadwal-pelayanan img,
+#Jadwal-Pelayanan .jadwal-persalinan img,
+#Jadwal-Pelayanan .jadwal-ceklab img {
+  width: 100%;
+  height: 750px;
+  object-fit: cover;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px grey;
+}
+/* Akhir Jadwal Pelayanan */
+
+/* Awal Hubungi Kami */
+#Hubungi-Kami .maps iframe {
+  width: 50%;
+  height: 450px;
+}
+/* Akhir Hubungi Kami */
 
 /* Awal Footer */
 #Footer .bg-footer {
