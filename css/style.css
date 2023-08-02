@@ -263,7 +263,7 @@ body {
 #Struktur-Organisasi .bg-struktur-organisasi,
 #Kesehatan-Masyarakat .bg-Kesehatan-Masyarakat,
 #Sarana-Prasarana .bg-sarana-prasarana,
-#Jadwal-Pelayanan .bg-jadwal-pelayanan,
+/* #Jadwal-Pelayanan .bg-jadwal-pelayanan, */
 #Hubungi-Kami .bg-hubungi-kami {
   background-color: white;
   margin: 50px 0;
@@ -272,7 +272,9 @@ body {
 #Maklumat-Pelayanan .Judul h2,
 #Struktur-Organisasi .Judul h2,
 #Sarana-Prasarana .Judul h2,
-#Jadwal-Pelayanan .Judul h2 {
+#Jadwal-Pelayanan .Judul h2,
+#Pelayanan-Kesehatan .Judul h2,
+#Hubungi-Kami .Judul h2 {
   font-family: salsa;
   font-weight: bold;
   text-align: center;
@@ -320,10 +322,24 @@ td {
 }
 /* Akhir Jadwal Pelayanan */
 
+/* Awal Pelayanan Kesehatan */
+#Jadwal-Pelayanan .jadwalPelayanan2 img,
+#Pelayanan-Kesehatan .pelayananKesehatan img,
+#Hubungi-Kami .masukkan img{
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px grey;
+}
+/* Akhir Pelayanan Kesehatan */
+
 /* Awal Hubungi Kami */
 #Hubungi-Kami .maps iframe {
   width: 50%;
   height: 450px;
+  border-radius: 14px;
+  box-shadow: 0px 0px 10px grey;
 }
 /* Akhir Hubungi Kami */
 
